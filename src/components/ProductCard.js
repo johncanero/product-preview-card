@@ -12,12 +12,12 @@ const ProductCard = () => {
             </a>
 
             <div className='p-5'>
-                <h3 className='mt-3 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
+                <h3 className='mt-4 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
                     PREVIEW
                 </h3>
 
                 <a href='/'> 
-                    <h1 className='mt-4 mb-6 text-4xl tracking-tight text-darkBlue font-Fraunces '>Gabrielle Essence Eau De Parfum</h1>
+                    <h1 className='mt-8 mb-6 text-4xl tracking-tight text-darkBlue font-Fraunces '>Gabrielle Essence Eau De Parfum</h1>
                 </a>
 
                 <p className="mb-10 font-normal text-darkGrayishBlue ">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
