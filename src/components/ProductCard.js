@@ -12,7 +12,7 @@ const ProductCard = () => {
             </a>
 
             {/* Main Content */}
-            <div className='p-6'>
+            <div className='p-5'>
                 <h3 className='mt-4 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
                     PREVIEW
                 </h3>
