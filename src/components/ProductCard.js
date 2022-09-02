@@ -29,14 +29,14 @@ const ProductCard = () => {
                 </div>
 
                 <div className=' flex items-center justify-center'>
-                    <button className=" mt-6 w-full h-14 px-6 text-white transition-colors duration-150  bg-greenJade rounded-lg focus:shadow-outline hover:bg-green-800 shadow-md">
+                    <button className=" mt-8 w-full h-14 px-6 text-white transition-colors duration-150  bg-greenJade rounded-lg focus:shadow-outline  hover:bg-green-700 shadow-md">
                     <i class="fa-solid fa-cart-shopping"></i> Add to Cart
                     </button>
                 </div>
             </div>
 
             {/* Footer */}
-            <footer className="flex flex-col w-full h-16 bg-lightCream border-t-2 fixed border-white  left-0 bottom-0 justify-center items-center text-darkBlue">
+            <footer className="flex flex-col w-full h-16 bg-white border-t-2 fixed border-white  left-0 bottom-0 justify-center items-center text-black">
                     <p className=' font-Montserrat font-semibold'>Challenge by: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noopener noreferrer'>Frontend Mentor</a>.</p>
 
                     <p className=' font-Montserrat'>Code by:
