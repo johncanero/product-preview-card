@@ -1,11 +1,10 @@
 import './App.css';
+import ProductCard from './components/ProductCard';
 
 function App() {
   return (
     <div>
-        <h1 className="text-3xl font-bold text-center mt-12 text-blue-500">
-           Hello World!
-       </h1>
+        <ProductCard />
     </div>
   );
 }
