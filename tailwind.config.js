@@ -12,9 +12,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        lightCream: '#F3EAE3',
-        greenJade: '#3D8168',
-        blueBunker: '#242A31',
+        lightCream: '#f2ebe3',
+        greenJade: '#3c8067',
+        darkBlue: '#1c232b',
+        darkGrayishBlue: '#6c7289',
+      },
+
+      fontFamily: {
+        Fraunces: ['Fraunces', 'serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

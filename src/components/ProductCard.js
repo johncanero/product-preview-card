@@ -4,21 +4,35 @@ import ImageMobile from '../images/image-product-mobile.jpg'
 const ProductCard = () => {
   return (
     <div>
-        <div className='max-w-md bg-white border-gray-200 shadow-md dark:border-gray-700 items-center'>
+        <div className=' max-w-lg bg-white border-gray-200 shadow-md dark:border-gray-700 items-center'>
 
             {/* Anchor Tag */}
             <a href='/'>
                 <img className='' src={ImageMobile} alt=''></img>
             </a>
 
-            <div className=' p-5'>
+            <div className='p-5'>
+                <h3 className='mt-3 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
+                    PREVIEW
+                </h3>
+
                 <a href='/'> 
-                    <h1 className=' mt-4 mb-6 text-3xl font-bold tracking-tight text-blueBunker'>Gabrielle Essence Eau De Parfum</h1>
+                    <h1 className='mt-4 mb-6 text-4xl tracking-tight text-darkBlue font-Fraunces '>Gabrielle Essence Eau De Parfum</h1>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                </a>
+
+                <p className="mb-10 font-normal text-darkGrayishBlue ">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                
+                <div className='flex space-x-6 items-center'>
+                    <h1 className='text-4xl font-Fraunces text-greenJade'>$149.99</h1>
+                    <p className='line-through'>$169.99</p>
+                </div>
+
+                <div className=' flex items-center justify-center'>
+                    <button className=" mt-6 w-full bg-greenJade hover:bg-darkGrayishBlue text-white py-2 px-8 rounded">
+                      Add to Cart
+                    </button>
+                </div>
+               
             </div>
         </div>
     </div>
