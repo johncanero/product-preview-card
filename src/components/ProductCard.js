@@ -28,7 +28,7 @@ const ProductCard = () => {
                 </div>
 
                 <div className=' flex items-center justify-center'>
-                    <button className=" mt-6 w-full bg-greenJade hover:bg-darkGrayishBlue text-white py-2 px-8 rounded">
+                    <button className=" mt-6 w-full h-12 px-6 text-white transition-colors duration-150  bg-greenJade rounded-lg focus:shadow-outline hover:bg-green-800">
                       Add to Cart
                     </button>
                 </div>
