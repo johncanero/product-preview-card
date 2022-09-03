@@ -26,7 +26,7 @@ const ProductCard = () => {
                 <p className="mb-10 font-normal  font-Montserrat text-darkGrayishBlue ">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
                 
                 <div className='flex space-x-6 items-center'>
-                    <h1 className='text-4xl font-Fraunces text-greenJade'>$149.99</h1>
+                    <h1 className=' mt-1 text-4xl font-Fraunces text-greenJade'>$149.99</h1>
                     <p className='line-through'>$169.99</p>
                 </div>
 
