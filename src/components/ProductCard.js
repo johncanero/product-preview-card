@@ -6,15 +6,15 @@ const ProductCard = () => {
   return (
     <div className='flex items-center justify-center'>
     
-        <div className=' max-w-lg bg-white border-gray-200 md:shadow-lg md:rounded-xl dark:border-gray-700 md:flex md:max-w-2xl md:mt-32'>
+        <div className='max-w-lg bg-white border-gray-200  dark:border-gray-700 md:shadow-lg md:rounded-xl md:flex md:max-w-2xl md:mt-32'>
 
             {/* Header Image */}
             <a href='/'>
-                <img className=' md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageMobile} alt=''></img>
+                <img className='md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageMobile} alt=''></img>
             </a>
 
             {/* Main Content */}
-            <div className=' px-5 md:w-96 md:pb-10'>
+            <div className='px-5 md:w-96 md:pb-10'>
                 <h3 className='mt-4 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
                     PREVIEW
                 </h3>
