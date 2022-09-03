@@ -1,18 +1,20 @@
 import React from 'react'
+import Footer from './Footer'
 import ImageMobile from '../images/image-product-mobile.jpg'
 
 const ProductCard = () => {
   return (
-    <div>
-        <div className=' max-w-lg bg-white dark:border-gray-700 items-center'>
+    <div className='flex items-center justify-center'>
+    
+        <div className=' max-w-lg bg-white border-gray-200 md:shadow-lg md:rounded-xl dark:border-gray-700 md:flex md:max-w-2xl md:mt-32'>
 
             {/* Header Image */}
             <a href='/'>
-                <img className='' src={ImageMobile} alt=''></img>
+                <img className=' md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageMobile} alt=''></img>
             </a>
 
             {/* Main Content */}
-            <div className='p-5'>
+            <div className=' px-5 md:w-96 md:pb-10'>
                 <h3 className='mt-4 font-Montserrat font-semibold text-darkGrayishBlue tracking-widest'>
                     PREVIEW
                 </h3>
@@ -29,20 +31,12 @@ const ProductCard = () => {
                 </div>
 
                 <div className=' flex items-center justify-center'>
-                    <button className=" mt-8 w-full h-14 px-6 text-white transition-colors duration-150  bg-greenJade rounded-lg focus:shadow-outline  hover:bg-green-700 shadow-md">
+                    <button className=" mt-16 w-full h-14 px-6 text-white transition-colors duration-150  bg-greenJade rounded-lg focus:shadow-outline  hover:bg-green-700 shadow-md">
                     <i class="fa-solid fa-cart-shopping"></i> Add to Cart
                     </button>
                 </div>
             </div>
-
-            {/* Footer */}
-            <footer className="flex flex-col w-full h-16 bg-white border-t-2 fixed border-white  left-0 bottom-0 justify-center items-center text-black">
-                    <p className=' font-Montserrat font-semibold'>Challenge by: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noopener noreferrer'>Frontend Mentor</a>.</p>
-
-                    <p className=' font-Montserrat'>Code by:
-                        <a href="/"> John Cañero</a>. 
-                    </p>
-            </footer>
+            <Footer />
         </div>
     </div>
   )
