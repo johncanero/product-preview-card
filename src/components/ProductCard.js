@@ -14,6 +14,7 @@ const ProductCard = () => {
                 <img className='md:hidden' src={ImageMobile} alt=''></img>
             </a>
 
+            {/* Header Image - Tablet and Desktop */}
             <a href='/'>
                 <img className='hidden sm:block md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageDesktop} alt=''></img>
             </a>
