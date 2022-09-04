@@ -10,12 +10,12 @@ const ProductCard = () => {
         <div className='max-w-lg bg-white border-gray-200  dark:border-gray-700 md:shadow-lg md:rounded-xl md:flex md:max-w-2xl md:mt-32'>
 
             {/* Header Image - Mobile */}
-            <a href='/'>
+            <a href='https://www.chanel.com/us/fragrance/p/120630/gabrielle-chanel-essence-eau-de-parfum-spray/' target="_blank" rel="noopener noreferrer">
                 <img className='md:hidden' src={ImageMobile} alt=''></img>
             </a>
 
             {/* Header Image - Tablet and Desktop */}
-            <a href='/'>
+            <a href='https://www.chanel.com/us/fragrance/p/120630/gabrielle-chanel-essence-eau-de-parfum-spray/' target="_blank" rel="noopener noreferrer">
                 <img className='hidden sm:block md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageDesktop} alt=''></img>
             </a>
 
@@ -25,7 +25,7 @@ const ProductCard = () => {
                     PREVIEW
                 </h3>
 
-                <a href='/'> 
+                <a href='https://www.chanel.com/us/fragrance/p/120630/gabrielle-chanel-essence-eau-de-parfum-spray/' target="_blank" rel="noopener noreferrer"> 
                     <h1 className='mt-8 mb-6 text-4xl tracking-tight text-darkBlue font-Fraunces '>Gabrielle Essence Eau De Parfum</h1>
                 </a>
 
