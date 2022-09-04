@@ -8,27 +8,26 @@
 } -->
 
 <div align="center">
-  <a href="https://splendorous-cassata-a96886.netlify.app/" target="_blank">
+  <a href="https://charming-kheer-afc3a1.netlify.app/" target="_blank">
     <img alt="manage-landing-page" height="100" src="./src/images/responsive/landingPageLogo.png"/>
   </a>
 </div>
 
 <div align="center">
 
-# Manage Landing Page Website
+# Product Preview Card Component
 
-This is the Manage Landing Page Website Project Challenge by Frontend Mentor. It
-is made with Tailwind CSS Utility Framework and React JS. A Landing Website
-Frontend.
+This is the Product Preview Card Component Project Challenge by Frontend Mentor.
+It is made with Tailwind CSS Utility Framework and React JS.
 
-Manage Landing Page: John Cañero
+Product Preview Card : GABRIELLE CHANEL ESSENCE Pefume
 
-Frontend Mentor Challenge - Manage Landing Page
+Frontend Mentor Challenge - Product Preview Card
 </div>
 
 ## Website
 
-🖥️ [https://splendorous-cassata-a96886.netlify.app/]
+🖥️ [https://charming-kheer-afc3a1.netlify.app/]
 
 ✍️ Project by John Cañero
 
