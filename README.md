@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://charming-kheer-afc3a1.netlify.app/" target="_blank">
-    <img alt="manage-landing-page" height="100" src="./src/images/responsive/perfumeEmoji.png"/>
+    <img alt="product-preview-card" height="100" src="./src/images/responsive/perfumeEmoji.png"/>
   </a>
 </div>
 
