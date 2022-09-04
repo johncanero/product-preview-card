@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import ImageMobile from '../images/image-product-mobile.jpg'
+import ImageDesktop from '../images/image-product-desktop.jpg'
 
 const ProductCard = () => {
   return (
@@ -8,9 +9,13 @@ const ProductCard = () => {
     
         <div className='max-w-lg bg-white border-gray-200  dark:border-gray-700 md:shadow-lg md:rounded-xl md:flex md:max-w-2xl md:mt-32'>
 
-            {/* Header Image */}
+            {/* Header Image - Mobile */}
             <a href='/'>
-                <img className='md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageMobile} alt=''></img>
+                <img className='md:hidden' src={ImageMobile} alt=''></img>
+            </a>
+
+            <a href='/'>
+                <img className='hidden sm:block md:object-cover md:h-full md:w-96 md:rounded-l-xl' src={ImageDesktop} alt=''></img>
             </a>
 
             {/* Main Content */}
