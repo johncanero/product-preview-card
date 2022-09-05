@@ -35,7 +35,7 @@ Frontend Mentor Challenge - Product Preview Card
 
 🪟: [Desktop - Tablet - Mobile]
 
-![Desktop View - React Website](./src/images/responsive/desktopView.jpg)
-![Tablet View - React Website](./src/images/responsive/tabletView.jpg)
-![Mobile View - React Website](./src/images/responsive/mobileView.jpg)
-![Code View - React Website](./src/images/responsive/codeView.jpg)
+![Desktop View - Product Preview Card](./src/images/responsive/desktopView.jpg)
+![Tablet View - Product Preview Card](./src/images/responsive/tabletView.jpg)
+![Mobile View - Product Preview Card](./src/images/responsive/mobileView.jpg)
+![Code View - Product Preview Card](./src/images/responsive/codeView.jpg)
