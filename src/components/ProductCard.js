@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import ImageMobile from '../images/image-product-mobile.jpg'
 import ImageDesktop from '../images/image-product-desktop.jpg'
 
@@ -41,6 +42,7 @@ const ProductCard = () => {
                     </button>
                 </div>
             </div>
+            <Footer />
         </div>
     </div>
   )
