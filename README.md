@@ -8,7 +8,7 @@
 } -->
 
 <div align="center">
-  <a href="https://charming-kheer-afc3a1.netlify.app/" target="_blank">
+  <a href="https://product-perfume-card-by-johncanero.vercel.app/" target="_blank">
     <img alt="product-preview-card" height="100" src="./src/images/responsive/perfumeEmoji.png"/>
   </a>
 </div>
@@ -27,7 +27,7 @@ Frontend Mentor Challenge - Product Preview Card
 
 ## Website
 
-🖥️ [https://charming-kheer-afc3a1.netlify.app/]
+🖥️ [https://product-perfume-card-by-johncanero.vercel.app/]
 
 ✍️ Project by John Cañero
 
